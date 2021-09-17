@@ -1,8 +1,21 @@
-<?php
+<head>
+    <meta charset="utf-8"/>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-/*
-* This file should be a secure protected file, which cannot be accessed unless the user
-* has successfully logged in with his/her credentials from users.txt.
-* 
-* This file should display a dashboard with data from the northwind database
-*/
+<script>
+    window.history.forward();
+	function noBack() 
+	{
+		 window.history.forward();
+		
+	}
+</script>
+
+<h1>Welcome to Datascience</h1>
+<img src=dashboard.png>
+
+<form name="logout" id="logout" action="logout.php"  method="post"> 
+    <input type=submit value=Logout />
+
