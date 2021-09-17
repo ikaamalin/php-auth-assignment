@@ -5,7 +5,6 @@
 	function noBack() 
 	{
 		 window.history.forward();
-		
 	}
 </script>
 <html>

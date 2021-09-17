@@ -9,7 +9,6 @@
 	function noBack() 
 	{
 		 window.history.forward();
-		
 	}
 </script>
 
